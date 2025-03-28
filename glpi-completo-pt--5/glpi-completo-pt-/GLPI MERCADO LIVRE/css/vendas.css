@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFEB3B;
+}
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+nav ul {
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #ffffff; 
+    box-shadow: 0 2px 5px #0000001a; 
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+header img {
+    max-width: 200px;
+}
+product-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; 
+    flex-wrap: wrap; 
+}
+product-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: left;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    flex: 1 1 30%;
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+product-item img {
+    width: 60px; 
+    height: 60px; 
+    object-fit: cover; 
+    margin-right: 15px;
+}
+product-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    text-align: left;
+    width: 100%;
+}
+product-details h2 {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    color: #333333;
+}
+price-and-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+button {
+    background-color: #007BFF;
+    color: #ffffff;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 48%; 
+    font-size: 0.9em;
+}
+button:hover {
+    background-color: #0056b3;
+}
+price-and-button p {
+    font-size: 1.1em;
+    font-weight: bold;
+    width: 48%;
+    text-align: right;
+}
+footer {
+    text-align: center;
+    margin-top: 30px;
+}
+footer a {
+    text-decoration: none;
+    color: #007BFF;
+}
